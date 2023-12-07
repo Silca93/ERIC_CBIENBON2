@@ -1,0 +1,140 @@
+.bodymain
+    display: flex
+    justify-content: center
+    width: 100%
+    background: lightgray
+    height: 100%
+    
+    .bodyleft
+        width: 40%
+        background-image: url(./../assets/img/portrait.jpg)
+        background-size: cover
+        
+        background-position: center        
+        background-repeat: no-repeat
+        height: 700px
+        border-top-left-radius: 30px
+        border-bottom-left-radius: 30px
+    .bodyright
+        background: white
+        back
+        height: 700px
+        width: 40%
+        display: flex
+        flex-direction: column
+        gap: 20px
+        padding-top: 30px
+        padding-left: 30px
+        border-top-right-radius: 15px
+        border-bottom-right-radius: 15px
+        .righttop
+            display: flex
+            flex-wrap: wrap
+            gap: 30px
+        .enre
+            background: red
+            width: 100px
+            height: 40px
+            border-radius: 20px
+            padding: 5px 5px
+            padding-left: 12px
+        .art 
+            display: flex
+            flex-direction: column
+            text-decoration: underline
+            
+        .abonne
+            display: flex
+            gap: 20px
+            flex-wrap: wrap
+            .logo
+                border-radius: 50%
+
+        .rightbot
+            
+            .rightbottop
+                display: flex
+                gap: 30px
+                flex-wrap: wrap
+                
+                p
+                    border: solid 1px
+                    border-radius: 15px
+                    padding: 7px
+                   
+                
+                
+            .user
+                border-radius: 50%
+
+            .rightbotbot
+                display: flex
+                flex-wrap: wrap
+                
+                gap: 30px
+                p
+                    font-size: smaller
+                .user2
+                    border-radius: 50%
+
+
+            
+            
+
+@media screen and ( max-width:768px )
+    .bodymain
+        display: flex
+        flex-direction: column    
+        height: 1800px
+        
+        align-items: center
+
+    .rightmid
+        h1
+            font-size: 20px
+    
+
+@media screen and ( max-width:768px )
+    .btn
+        display: flex !important
+        margin-left: 0px !important
+        font-size: 10px !important
+        justify-content: flex-start
+
+
+
+
+    .bodyright
+        height: 900px !important
+        border-bottom-left-radius: 15px
+        border-top-right-radius: 0px !important
+
+
+
+
+    .bodyleft
+        height: 300px !important
+        border-top-right-radius: 15px
+        border-bottom-left-radius: 0px !important
+
+
+@media screen and ( max-width:500px )
+    .bodyright
+        height: 1200px !important
+
+
+
+
+
+    .abonne
+        
+        .fdp
+        
+         margin-left: -15px !important
+  
+@media screen and ( max-width:425px )
+    h5
+        font-size: 15px !important
+
+  
+                

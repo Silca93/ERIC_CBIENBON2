@@ -1,0 +1,10 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$couleur-perso : (
+    "orange" : rgb(207,130, 22),
+    "wowou" : rgba(51,162,185,255),
+    "special" : rgb(242, 0, 0),
+);
+
+$theme-colors : map-merge($theme-colors, $couleur-perso );
