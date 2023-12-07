@@ -40,8 +40,9 @@ header
     display: flex
     justify-content: center
     align-items: center
-    transition-duration: 0.3s ease-out
+    transition-duration: 0.3s ease-in
     animation: pulse 2s infinite linear
+    overflow: hidden
    
 
 
@@ -58,9 +59,14 @@ header
         transform: scale(1)
 
 
+
+#playbutton
+    transition-duration: 0.2s
+
 #playbutton:hover
-    scale: 3
-    opacity: 0.7
+    scale: 8
+    
+    opacity: 0.2
         
         
 

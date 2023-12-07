@@ -40,8 +40,9 @@ header .headerbot .cbienbon {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-duration: 0.3s ease-out;
+  transition-duration: 0.3s ease-in;
   animation: pulse 2s infinite linear;
+  overflow: hidden;
 }
 
 @keyframes pulse {
@@ -57,9 +58,13 @@ header .headerbot .cbienbon {
     transform: scale(1);
   }
 }
+#playbutton {
+  transition-duration: 0.2s;
+}
+
 #playbutton:hover {
-  scale: 3;
-  opacity: 0.7;
+  scale: 8;
+  opacity: 0.2;
 }
 
 main {
@@ -127,7 +132,7 @@ main .sec1bot .threeblocks .blockleft {
   justify-content: center;
   padding: 10px 15px;
   text-align: start;
-  background-color: rgb(59, 49, 35);
+  background-color: rgb(44, 40, 34);
   width: 33%;
   height: 180px;
   margin-left: 20px;
@@ -138,7 +143,7 @@ main .sec1bot .threeblocks .blockmid {
   flex-direction: column;
   justify-content: center;
   height: 180px;
-  background-color: rgb(59, 49, 35);
+  background-color: rgb(44, 40, 34);
   padding: 10px 15px;
 }
 main .sec1bot .threeblocks .blockright {
@@ -147,7 +152,7 @@ main .sec1bot .threeblocks .blockright {
   flex-direction: column;
   justify-content: center;
   height: 180px;
-  background-color: rgb(59, 49, 35);
+  background-color: rgb(44, 40, 34);
   padding: 10px 15px;
   margin-right: 20px;
 }
