@@ -63,7 +63,7 @@ header .headerbot .cbienbon {
 }
 
 #playbutton:hover {
-  scale: 8;
+  scale: 5;
   opacity: 0.2;
 }
 
@@ -99,12 +99,49 @@ main .sec1 .sec1right {
   justify-content: center;
   align-items: center;
 }
-main .sec1 .sec1right .goldenrectangles {
+main .sec1 .sec1right .goldrectangles {
   position: relative;
-}
-main .sec1 .sec1right .aboutimg {
+  height: 300px;
+  width: 400px;
+  background-image: url(./../assets/CBIENBON/img/about.jpg);
+  background-size: cover;
   border: solid 3px gray;
-  z-index: 0;
+  transition-duration: 0.3s;
+}
+main .sec1 .sec1right .goldrectangles:hover {
+  position: relative !important;
+  transform: scale(1.1) !important;
+}
+main .sec1 .sec1right .goldrectangles .border-container1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition-duration: 0.3s;
+  height: 50px;
+  width: 50px;
+  border-top: 5px solid #cca55d;
+  border-left: 5px solid #cca55d;
+  z-index: 3;
+}
+main .sec1 .sec1right .goldrectangles .border-container1:hover {
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px !important;
+}
+main .sec1 .sec1right .goldrectangles .border-container2 {
+  position: absolute !important;
+  bottom: 10px !important;
+  right: 10px !important;
+  transition-duration: 0.3s;
+  height: 50px;
+  width: 50px;
+  border-bottom: 5px solid #cca55d !important;
+  border-right: 5px solid #cca55d !important;
+  z-index: 3;
+}
+main .sec1 .sec1right .goldrectangles .border-container2:hover {
+  bottom: 0 !important;
+  right: 0 !important;
 }
 main .sec1bot {
   display: flex;
@@ -134,7 +171,7 @@ main .sec1bot .threeblocks .blockleft {
   text-align: start;
   background-color: rgb(44, 40, 34);
   width: 33%;
-  height: 180px;
+  height: 220px;
   margin-left: 20px;
 }
 main .sec1bot .threeblocks .blockmid {
@@ -142,7 +179,7 @@ main .sec1bot .threeblocks .blockmid {
   width: 33%;
   flex-direction: column;
   justify-content: center;
-  height: 180px;
+  height: 220px;
   background-color: rgb(44, 40, 34);
   padding: 10px 15px;
 }
@@ -151,7 +188,7 @@ main .sec1bot .threeblocks .blockright {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 180px;
+  height: 220px;
   background-color: rgb(44, 40, 34);
   padding: 10px 15px;
   margin-right: 20px;

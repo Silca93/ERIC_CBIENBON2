@@ -30,12 +30,65 @@ main
             justify-content: center
             align-items: center
 
-            .goldenrectangles
+            .goldrectangles
                 position: relative
-
-            .aboutimg
+                height: 300px
+                width: 400px
+                background-image: url(./../assets/CBIENBON/img/about.jpg)
+                background-size: cover
                 border: solid 3px gray
-                z-index: 0
+                transition-duration: 0.3s
+
+                &:hover
+                    position: relative !important
+                    transform: scale(1.1) !important
+                    
+
+            
+             
+                
+
+                .border-container1
+                    position: absolute
+                    top: 10px
+                    left: 10px
+                    transition-duration: 0.3s
+                    height: 50px
+                    width: 50px
+                    border-top: 5px solid #cca55d
+                    border-left: 5px solid #cca55d
+                    z-index: 3
+                    
+                    
+                .border-container1:hover
+                    position: absolute !important
+                    top: 0px !important
+                    left: 0px !important
+
+
+
+
+                .border-container2
+                    position: absolute !important
+                    bottom: 10px !important
+                    right: 10px !important
+                    transition-duration: 0.3s
+                    height: 50px
+                    width: 50px
+                    border-bottom: 5px solid #cca55d !important
+                    border-right: 5px solid #cca55d !important
+                    z-index: 3
+
+                    &:hover
+                        bottom: 0 !important
+                        right: 0 !important
+
+                
+
+
+
+           
+               
 
 
 
@@ -74,7 +127,7 @@ main
                 text-align: start
                 background-color: rgb(44, 40, 34)
                 width: 33%
-                height: 180px
+                height: 220px
                 margin-left: 20px
             
             .blockmid
@@ -82,7 +135,7 @@ main
                 width: 33%
                 flex-direction: column
                 justify-content: center
-                height: 180px
+                height: 220px
                 background-color: rgb(44, 40, 34)
                 padding: 10px 15px
             .blockright
@@ -90,7 +143,7 @@ main
                 display: flex
                 flex-direction: column
                 justify-content: center
-                height: 180px
+                height: 220px
                 background-color: rgb(44, 40, 34)
                 padding: 10px 15px
                 margin-right: 20px
