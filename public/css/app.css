@@ -124,9 +124,7 @@ main .sec1 .sec1right .goldrectangles .border-container1 {
   z-index: 3;
 }
 main .sec1 .sec1right .goldrectangles .border-container1:hover {
-  position: absolute !important;
-  top: 0px !important;
-  left: 0px !important;
+  translate: 60px;
 }
 main .sec1 .sec1right .goldrectangles .border-container2 {
   position: absolute !important;
@@ -147,6 +145,7 @@ main .sec1bot {
   display: flex;
   flex-direction: column;
   background-color: rgb(15, 14, 12);
+  padding-top: 50px;
 }
 main .sec1bot .line {
   color: gray;
@@ -161,6 +160,7 @@ main .sec1bot .threeblocks {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 50px;
   gap: 20px;
 }
 main .sec1bot .threeblocks .blockleft {
@@ -202,6 +202,12 @@ main .sec1bot .threeblocks .blockright {
     align-items: center;
   }
 }
+.sec3 {
+  background-image: url(./../assets/CBIENBON/img/events-bg.jpg);
+  background-size: cover;
+  background-color: black;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
