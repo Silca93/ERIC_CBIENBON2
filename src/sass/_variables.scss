@@ -5,6 +5,7 @@ $couleur-perso : (
     "orange" : #cca55d,
     "wowou" : rgba(51,162,185,255),
     "special" : rgb(242, 0, 0),
+    "blockback" : #3c2313,  
 );
 
 $theme-colors : map-merge($theme-colors, $couleur-perso );

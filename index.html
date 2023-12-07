@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/">    
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawome-free/">    
     <script src="https://kit.fontawesome.com/6e86be81fb.js" crossorigin="anonymous"></script>
    
     <title>Not free Access</title>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg">
+    <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75  fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#">CBIENBON</a>
+        <a class="navbar-brand text-white fs-2" href="#">CBIENBON</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav d-flex justify-content-center mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              <a class="homecolor nav-link active text-orange" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">About</a>
@@ -29,7 +29,7 @@
              
              </li>
             <li class="nav-item">
-              <a class="nav-link text-white" aria-disabled="true">Menu</a>
+              <a class="nav-link text-white">Menu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-white" aria-current="page" href="#">Events</a>
@@ -54,11 +54,34 @@
     </nav>
     <div class="headerbot d-flex flex-column justify-content-center gap-0">
       <h1 class="text-white">Welcome to <span class="cbienbon">CBIENBON</span></h1>
-      <p>Delivering great food for more than 18 years!</p>
+      <p class="text-white">Delivering great food for more than 18 years!</p>
       <div class="boutonsibling d-flex gap-3">
-        <button class="btn btn-outline-warning text-white rounded-pill" type="submit">Our menu</button>
-        <button class="btn btn-outline-warning text-white rounded-pill" type="submit">Book a table</button>
-        <p><i class="fa-sharp fa-solid fa-circle-play fa-2xl" style="color: #cca55d;"></i></p>
+        <button class="btn btn-outline-warning text-white rounded-pill" type="submit">OUR MENU</button>
+        <button class="btn btn-outline-warning text-white rounded-pill" type="submit">BOOK A TABLE</button>
+        <p></p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn" id="playbutton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fa-sharp fa-solid fa-circle-play fa-2xl" id="playbutton" style="color: #cca55d;"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="400" height="300px" src="https://www.youtube.com/embed/nlXYcpRs8Nk" title="Le Récap MolenGeek 2022 #endoftheyear" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </div> 
 
@@ -68,8 +91,52 @@
 
   <main>
     <section class="sec1">
+      <div class="sec1left">
+        <h4 class="text-white">Voluptatem dignissimos provident quasi corporis<br> voluptates sit assumenda.</h4>
+        <p class="goldcheck text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua.</p>
+        <p class="goldcheck text-white"><i class="fa-regular fa-circle-check" style="color: #cca55d;"></i>&#160Ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p class="goldcheck text-white"><i class="fa-regular fa-circle-check" style="color: #cca55d;"></i>&#160Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        <p class="goldcheck text-white"><i class="fa-regular fa-circle-check" style="color: #cca55d;"></i>&#160Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br> reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla<br> pariatur.</p>
+        <p class="goldcheck text-white">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id<br> est laborum</p>
+
+      </div>
+      <div class="sec1right">
+        <div class="goldrectangles">
+           <img src="./public/assets/CBIENBON/img/about.jpg" height="300px" class="aboutimg" width="400px" alt="">
+        
+          </div>
+          
+
+      </div>
+      
       
     </section>
+    <div class="sec1bot">
+      <p class="text-white">WHY US?</p>
+      <h1 class="text-orange">WHY CHOOSE OUR RESTAURANT</h1>
+      <div class="threeblocks">
+        <div class="blockleft">
+          <p class="text-orange">01</p>
+          <p class="text-white">Lorem Ipsum</p>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, pariatur!</p>
+
+        </div>
+        <div class="blockmid">
+          <p class="text-orange">02</p>
+          <p class="text-white">Lorem Ipsum</p>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, pariatur!</p>
+
+        </div>
+        <div class="blockright">
+          <p class="text-orange">03</p>
+          <p class="text-white">Lorem Ipsum</p>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, pariatur!</p>
+
+        </div>
+        
+      </div>
+
+    </div>
     <section class="sec2"></section>
     <section class="sec3"></section>
     <section class="sec4"></section>
