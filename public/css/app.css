@@ -94,18 +94,20 @@ main .sec1 .sec1right {
   justify-content: center;
   align-items: center;
 }
+main .sec1 .sec1right .goldenrectangles {
+  position: relative;
+}
 main .sec1 .sec1right .aboutimg {
   border: solid 3px gray;
   z-index: 0;
 }
-main .sec1 .sec1right .aboutimg .goldangles {
-  border: solid 2px white;
-  background-color: red;
-  z-index: 2;
-}
 main .sec1bot {
   display: flex;
   flex-direction: column;
+  background-color: rgb(15, 14, 12);
+}
+main .sec1bot .line {
+  color: gray;
 }
 main .sec1bot p {
   padding-left: 20px;
@@ -147,7 +149,7 @@ main .sec1bot .threeblocks .blockright {
   height: 180px;
   background-color: rgb(59, 49, 35);
   padding: 10px 15px;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 550px) {
