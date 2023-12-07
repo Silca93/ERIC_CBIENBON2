@@ -11,8 +11,7 @@ header
         position: sticky !important
         
 
-        .homecolor
-            color: #cca55d
+        
 
     .headerbot
         padding-top: 250px
@@ -24,8 +23,53 @@ header
 
 
 
-#playbutton
-    box-shadow: 0px 0px 0px 17px rgba(213, 162, 79, 0.3)
+
+.homecolor:hover
+    color:#cca55d !important
+
+
+
+    
+
+.playbox
+    border-radius: 50%
+    width: 50px
+    height: 50px
+    background-color: #cca55d
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    transition-duration: 0.3s ease-out
+    animation: pulse 2s infinite linear
+   
+
+
+
+@keyframes pulse
+    0%
+        transform: scale(1)
+        box-shadow: 0 0 0 0px rgba(213, 162, 79, 0.3)
+    50%
+        transform: scale(1)
+        box-shadow: 0 0 0 12px rgba(213, 162, 79, 0.3)   
+        
+    100%
+        transform: scale(1)
+
+
+#playbutton:hover
+    scale: 3
+    opacity: 0.7
+        
+        
+
+
+
+
+
+
+   
 
        
     
