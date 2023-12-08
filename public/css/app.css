@@ -220,6 +220,41 @@ main .sec1bot .threeblocks .blockright:hover {
     align-items: center;
   }
 }
+.sec2 {
+  background-color: red;
+}
+.sec2 .sec2top .linegray {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.sec2 .sec2top .linegray .laligne {
+  margin-left: -80px;
+}
+.sec2 .sec2bot {
+  display: flex !important;
+  width: 100%;
+}
+.sec2 .sec2bot .sec2botleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+}
+.sec2 .sec2bot .sec2botleft .lobster {
+  display: flex;
+}
+.sec2 .sec2bot .sec2botright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+}
+
 .sec3 {
   background-image: url(./../assets/CBIENBON/img/events-bg.jpg);
   background-size: cover;
