@@ -181,6 +181,10 @@ main .sec1bot .threeblocks .blockleft {
   width: 33%;
   height: 220px;
   margin-left: 20px;
+  transition-duration: 0.2s;
+}
+main .sec1bot .threeblocks .blockleft:hover {
+  background-color: orange;
 }
 main .sec1bot .threeblocks .blockmid {
   display: flex;
@@ -191,6 +195,9 @@ main .sec1bot .threeblocks .blockmid {
   background-color: rgb(44, 40, 34);
   padding: 10px 15px;
 }
+main .sec1bot .threeblocks .blockmid:hover {
+  background-color: orange;
+}
 main .sec1bot .threeblocks .blockright {
   width: 33%;
   display: flex;
@@ -200,6 +207,9 @@ main .sec1bot .threeblocks .blockright {
   background-color: rgb(44, 40, 34);
   padding: 10px 15px;
   margin-right: 20px;
+}
+main .sec1bot .threeblocks .blockright:hover {
+  background-color: orange;
 }
 
 @media screen and (max-width: 550px) {
