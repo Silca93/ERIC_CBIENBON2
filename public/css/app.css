@@ -315,6 +315,7 @@ main .sec1bot .threeblocks .blockright {
 .sec7bot {
   width: 100%;
   background-color: rgb(44, 40, 24);
+  display: flex;
 }
 .sec7bot .sec7botleft {
   width: 40%;
@@ -322,9 +323,93 @@ main .sec1bot .threeblocks .blockright {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+}
+.sec7bot .locationbox {
+  display: flex;
+  gap: 20px;
+}
+.sec7bot .locationbox .locationcircle {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sec7bot .timebox {
+  display: flex;
+  gap: 20px;
+}
+.sec7bot .timebox .timecircle {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sec7bot .emailbox {
+  display: flex;
+  gap: 20px;
+}
+.sec7bot .emailbox .emailcircle {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sec7bot .phonebox {
+  display: flex;
+  gap: 20px;
+}
+.sec7bot .phonebox .phonecircle {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 .sec7bot .sec7botright {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.sec7bot .sec7botright .secbotrighttop {
+  display: flex;
+  gap: 5px;
+}
+.sec7bot .sec7botright .secbotrighttop #fname2 {
+  width: 100%;
+  margin: 4px 10px;
+  background-color: rgb(44, 40, 34);
+  color: white;
+  padding: 7px 5px;
+  border: solid 2px gray;
+}
+.sec7bot .sec7botright .secbotrightbot {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(44, 40, 34);
+  color: white;
+}
+.sec7bot .sec7botright .secbotrightbot #textarea2 {
+  width: 100%;
+  background-color: rgb(44, 40, 34);
+  color: white;
+  padding: 7px 5px;
+  border: solid 2px gray;
 }
 
 /*!
