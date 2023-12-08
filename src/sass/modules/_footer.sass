@@ -5,35 +5,39 @@ footer
     .footertop
         height: 90%
         display: flex
+        flex-wrap: wrap
         padding-top: 50px
 
         .footertop1
             width: 25%
             display: flex
+            flex-wrap: wrap
             flex-direction: column
-            
+            padding: 1px 10px
             align-items: start
             padding-left: 20px
         .footertop2
             width: 25%
-             
+            flex-wrap: wrap
             display: flex
             flex-direction: column
             justify-content: center
             align-items: start
+            padding: 1px 10px
         .footertop3
             width: 25%
-             
+            flex-wrap: wrap
             display: flex
             flex-direction: column
             justify-content: center
             align-items: start
+            padding: 1px 10px
         .footertop4
             width: 25%
-             
+            flex-wrap: wrap
             display: flex
             flex-direction: column
-            
+            padding: 1px 10px
             align-items: start
 
     .footerbot
@@ -55,3 +59,13 @@ footer
 .hr
     padding: 0 0
     margin: 0 0
+
+
+@media screen and ( max-width:650px )
+
+    .footertop
+        display: flex
+        flex-direction: column
+        
+        padding-left: 20px
+    

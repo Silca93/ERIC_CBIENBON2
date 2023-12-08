@@ -226,7 +226,7 @@ main
     .sec4mid
         display: flex
         flex-direction: column
-        flex-wrap: wrap
+        
         gap: 20px
         justify-content: center
         align-items: center
@@ -243,7 +243,7 @@ main
 
 
 #textarea
-        width: 1290px
+        width: 100%
         background-color: rgb(44, 40, 34)
         border: solid 2px gray
         color: whitesmoke
@@ -463,4 +463,30 @@ main
 
 
     
-    
+
+
+@media screen and ( max-width:500px )
+    .sec5mid
+        display: flex
+        flex-direction: column
+        #galltop
+            height: 100% !important
+            width: 100% !important
+
+    .sec5bot
+        display: flex
+        flex-direction: column
+        #gallbot
+            height: 100% !important
+            width: 100% !important
+    .sec6bot
+        display: flex
+        flex-direction: column
+        #chefs
+            width: 100% !important
+
+    .sec7bot
+        display: flex
+        flex-direction: column
+        padding-left: 20px
+        
