@@ -145,6 +145,16 @@ main .sec1bot {
   background-color: rgb(15, 14, 12);
   padding-top: 50px;
 }
+main .sec1bot .linegray {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+main .sec1bot .linegray .laligne {
+  margin-left: -80px;
+}
 main .sec1bot .line {
   color: gray;
 }
@@ -223,6 +233,16 @@ main .sec1bot .threeblocks .blockright {
   padding-top: 50px;
   padding-left: 50px;
 }
+.sec4 .sec4top .linegray {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.sec4 .sec4top .linegray .laligne {
+  margin-left: -80px;
+}
 .sec4 .sec4mid {
   display: flex;
   flex-direction: column;
@@ -261,6 +281,16 @@ main .sec1bot .threeblocks .blockright {
   padding-left: 50px !important;
   padding-top: 50px;
 }
+.sec5 .linegray {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.sec5 .linegray .laligne {
+  margin-left: -80px;
+}
 .sec5 .sec5mid {
   display: flex;
   padding-left: 0px;
@@ -289,6 +319,16 @@ main .sec1bot .threeblocks .blockright {
   padding-bottom: 30px;
   padding-left: 50px;
 }
+.sec6 .sec6top .linegray {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.sec6 .sec6top .linegray .laligne {
+  margin-left: -80px;
+}
 .sec6 .sec6bot {
   width: 100%;
   display: flex;
@@ -313,6 +353,17 @@ main .sec1bot .threeblocks .blockright {
   padding-top: 50px;
   padding-bottom: 30px;
   padding-left: 50px;
+  margin: 0 0;
+}
+.sec7 .sec7top .linegray {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.sec7 .sec7top .linegray .laligne {
+  margin-left: -80px;
 }
 
 .sec7bot {
