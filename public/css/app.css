@@ -184,7 +184,7 @@ main .sec1bot .threeblocks .blockleft {
   transition-duration: 0.2s;
 }
 main .sec1bot .threeblocks .blockleft:hover {
-  background-color: orange;
+  background-color: #cca55d;
 }
 main .sec1bot .threeblocks .blockmid {
   display: flex;
@@ -196,7 +196,7 @@ main .sec1bot .threeblocks .blockmid {
   padding: 10px 15px;
 }
 main .sec1bot .threeblocks .blockmid:hover {
-  background-color: orange;
+  background-color: #cca55d;
 }
 main .sec1bot .threeblocks .blockright {
   width: 33%;
@@ -209,7 +209,7 @@ main .sec1bot .threeblocks .blockright {
   margin-right: 20px;
 }
 main .sec1bot .threeblocks .blockright:hover {
-  background-color: orange;
+  background-color: #cca55d;
 }
 
 @media screen and (max-width: 550px) {
@@ -247,14 +247,35 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec2 .sec2bot .sec2botleft .Lobster {
   display: flex;
 }
+.sec2 .sec2bot .sec2botleft .Lobster .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  gap: 2px;
+}
 .sec2 .sec2bot .sec2botleft .Crab {
   display: flex;
+}
+.sec2 .sec2bot .sec2botleft .Crab .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
 }
 .sec2 .sec2bot .sec2botleft .Tuscan {
   display: flex;
 }
+.sec2 .sec2bot .sec2botleft .Tuscan .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
 .sec2 .sec2bot .sec2botleft .Greek {
   display: flex;
+}
+.sec2 .sec2bot .sec2botleft .Greek .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
 }
 .sec2 .sec2bot .sec2botright {
   display: flex;
@@ -266,14 +287,34 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec2 .sec2bot .sec2botright .Bread {
   display: flex;
 }
+.sec2 .sec2bot .sec2botright .Bread .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
 .sec2 .sec2bot .sec2botright .Caesar {
   display: flex;
+}
+.sec2 .sec2bot .sec2botright .Caesar .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
 }
 .sec2 .sec2bot .sec2botright .Mozarella {
   display: flex;
 }
+.sec2 .sec2bot .sec2botright .Mozarella .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
 .sec2 .sec2bot .sec2botright .Spinach {
   display: flex;
+}
+.sec2 .sec2bot .sec2botright .Spinach .text-container {
+  display: flex;
+  flex-direction: column;
+  color: gray;
 }
 
 .sec3 {
