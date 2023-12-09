@@ -343,16 +343,32 @@ main
     .sec5mid
         display: flex
         padding-left: 0px
+        overflow: hidden
+         
+        
 
         #galltop
             width: 25%
             height: 25%
+            transition-duration: 0.2s
+            
+        #galltop:hover
+            transform: scale(1.09)
+            
 
     .sec5bot
-        display: flex        
+        display: flex   
+        overflow: hidden     
         #gallbot
             width: 25%
             height: 25%
+            transition-duration: 0.2s
+            
+
+            &:hover
+                transform: scale(1.1) 
+                
+                
 
 .sec6
     background-color: rgb(44, 40, 34)

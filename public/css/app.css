@@ -359,17 +359,27 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec5 .sec5mid {
   display: flex;
   padding-left: 0px;
+  overflow: hidden;
 }
 .sec5 .sec5mid #galltop {
   width: 25%;
   height: 25%;
+  transition-duration: 0.2s;
+}
+.sec5 .sec5mid #galltop:hover {
+  transform: scale(1.09);
 }
 .sec5 .sec5bot {
   display: flex;
+  overflow: hidden;
 }
 .sec5 .sec5bot #gallbot {
   width: 25%;
   height: 25%;
+  transition-duration: 0.2s;
+}
+.sec5 .sec5bot #gallbot:hover {
+  transform: scale(1.1);
 }
 
 .sec6 {
