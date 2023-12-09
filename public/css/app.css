@@ -439,6 +439,13 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   gap: 10px;
 }
+.sec6 .sec6bot .chef-container1 .infos-hover1 .socialcontainer p {
+  color: red;
+  cursor: pointer;
+}
+.sec6 .sec6bot .chef-container1 .infos-hover1 .socialcontainer p i:hover {
+  color: #cca55d !important;
+}
 .sec6 .sec6bot .chef-container1:hover .infos-hover1 {
   height: 100%;
   width: 100%;
@@ -471,6 +478,13 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   gap: 10px;
 }
+.sec6 .sec6bot .chef-container2 .infos-hover2 .socialcontainer p {
+  color: red;
+  cursor: pointer;
+}
+.sec6 .sec6bot .chef-container2 .infos-hover2 .socialcontainer p i:hover {
+  color: #cca55d !important;
+}
 .sec6 .sec6bot .chef-container2:hover .infos-hover2 {
   height: 100%;
   width: 100%;
@@ -502,6 +516,13 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec6 .sec6bot .chef-container3 .infos-hover3 .socialcontainer {
   display: flex;
   gap: 10px;
+}
+.sec6 .sec6bot .chef-container3 .infos-hover3 .socialcontainer p {
+  color: red;
+  cursor: pointer;
+}
+.sec6 .sec6bot .chef-container3 .infos-hover3 .socialcontainer p i:hover {
+  color: #cca55d !important;
 }
 .sec6 .sec6bot .chef-container3:hover .infos-hover3 {
   height: 100%;
