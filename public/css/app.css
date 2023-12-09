@@ -408,11 +408,23 @@ main .sec1bot .threeblocks .blockright:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 25px;
   justify-content: center;
 }
-.sec6 .sec6bot #chefs {
+.sec6 .sec6bot .chef-container1 {
   width: 30%;
+  height: 100%;
+}
+.sec6 .sec6bot .chef-container2 {
+  width: 30%;
+  height: 100%;
+}
+.sec6 .sec6bot .chef-container3 {
+  width: 30%;
+  height: 100%;
+}
+.sec6 .sec6bot #chefs {
+  width: 100%;
 }
 
 .sec7 {
