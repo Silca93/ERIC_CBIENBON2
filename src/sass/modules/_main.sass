@@ -709,19 +709,26 @@ main
         flex-direction: column
         gap: 15px
         justify-content: center
-        align-items: center
+        align-items: start
+        position: relative
+        margin-bottom: 50px
+        margin-top: 50px
+   
 
         .secbotrighttop
             display: flex
+            flex-wrap: wrap
             gap: 5px
+            width: 100%
+        
             
 
             #fname2
-                width: 100%
+                width: 200px
                 margin: 4px 10px
                 background-color: rgb(28, 25, 21)
                 color: white
-                padding: 7px 5px
+                padding: 5px 5px
                 border: solid 2px gray
 
         .secbotrightbot            
@@ -734,21 +741,31 @@ main
             color: white
 
             #textarea2
-                width: 100%
+                width: 90%
                 background-color: rgb(28, 25, 21)
                 color: white
                 padding: 7px 5px
                 border: solid 2px gray
 
             #textarea3
-                width: 850px
+                width: 130%
                 height: 200px
                 background-color: rgb(28, 25, 21)
                 color: white
                 padding: 7px 5px
                 border: solid 2px gray
 
-            
+
+
+
+
+.bookbutton
+    position: absolute
+    bottom: -50px
+    left: 230px
+    
+
+
         
 .sectitles
     font-family: 'Times New Roman', Times, serif
