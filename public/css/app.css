@@ -46,6 +46,27 @@ header .headerbot .cbienbon {
   overflow: hidden;
 }
 
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-dialog {
+  max-width: none;
+}
+.modal-content {
+  border: none;
+  background-color: transparent;
+}
+.modal .modal-header,
+.modal .modal-footer {
+  display: none;
+}
+
+#Navbar {
+  position: fixed !important;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -295,6 +316,7 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec2 .sec2bot .sec2botleft .Lobster .text-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   color: gray;
   padding: 20px 10px;
 }
@@ -306,6 +328,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botleft .Crab .text-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   color: gray;
   padding: 20px 10px;
@@ -315,6 +338,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botleft .Tuscan .text-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   color: gray;
   padding: 20px 10px;
@@ -324,6 +348,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botleft .Greek .text-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   color: gray;
   padding: 20px 10px;
@@ -433,7 +458,7 @@ main .sec1bot .threeblocks .blockright:hover {
   padding: 7px 5px;
 }
 .sec4 .sec4mid .sec4midbot {
-  width: 100%;
+  width: 95%;
 }
 
 #textarea {
@@ -803,6 +828,10 @@ main .sec1bot .threeblocks .blockright:hover {
   font-family: sans-serif;
   letter-spacing: 0.1em;
   color: #adacac;
+}
+
+.hovermenu:hover {
+  color: #cca55d !important;
 }
 
 @media screen and (max-width: 500px) {
