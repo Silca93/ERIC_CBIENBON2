@@ -821,6 +821,15 @@ footer .footerbot {
   display: flex;
   gap: 20px;
 }
+.iconesfooter p .fa-brands:hover {
+  color: #cca55d !important;
+  cursor: pointer;
+}
+
+#footercolor:hover {
+  color: #cca55d !important;
+  cursor: pointer;
+}
 
 .hr {
   padding: 0 0;
