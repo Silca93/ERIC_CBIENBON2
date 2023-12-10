@@ -5,28 +5,35 @@ main
     .sec1
         display: flex
         padding-top: 20px
-        padding-bottom: 100px
+        padding-bottom: 70px
+        width: 100%
 
         .sec1left
             width: 50%
             padding-left: 50px
+            display: flex
+            flex-direction: column
+            justify-content: center
             // display: flex !important
             // flex-direction: column !important
             // justify-content: center !important
             // align-items: center !important
             h4
              
-                font-size: 130%
+                font-size: 30px
                 display: flex
+            
+               
 
             .goldcheck
                 
-                font-size: 70%
+                font-size: 16px
                 padding-left: 0px !important
                 margin-left: 0px !important
 
         .sec1right
             width: 50%
+            height: 500px
             display: flex
             flex-direction: column
             justify-content: center
@@ -34,8 +41,8 @@ main
 
             .goldrectangles
                 position: relative
-                height: 300px
-                width: 400px
+                height: 100%
+                width: 90%
                 background-image: url(./../assets/CBIENBON/img/about.jpg)
                 background-size: cover
                 border: solid 3px gray
@@ -131,6 +138,8 @@ main
             justify-content: center
             width: 100%
             margin-bottom: 50px
+            padding-left: 20px
+            padding-right: 20px
 
             gap: 20px
 
@@ -143,7 +152,7 @@ main
                 background-color: rgb(44, 40, 34)
                 width: 33%
                 height: 220px
-                margin-left: 20px
+                
                 transition-duration: 0.2s
 
             .blockleft:hover
@@ -169,7 +178,7 @@ main
                 height: 220px
                 background-color: rgb(44, 40, 34)
                 padding: 10px 15px
-                margin-right: 20px
+                
 
             .blockright:hover
                 background-color: #cca55d
@@ -177,12 +186,21 @@ main
 
 
 
-@media screen and ( max-width:550px )
+@media screen and ( max-width:900px )
     .sec1
         display: flex
         flex-direction: column
         justify-content: center
         align-items: center
+        .sec1left
+            width: 90% !important
+            display: flex !important
+            justify-content: center !important
+        .sec1right
+            width: 90% !important
+            
+    
+        
 
         
 
@@ -207,7 +225,8 @@ main
 
 
     .sec2bot
-        display: flex !important
+        display: flex 
+        
         width: 100%
         padding-bottom: 50px
         
@@ -219,6 +238,7 @@ main
             align-items: end
             padding-right: 20px
             padding-top: 60px
+            margin-left: 10px
             
             width: 50%
             .Lobster
@@ -271,29 +291,40 @@ main
 
             .Bread
                 display: flex
+                flex-wrap: wrap
                 .text-container
                     display: flex
                     flex-direction: column
+                    flex-wrap: wrap
                     color: gray
                     padding: 20px 10px
             .Caesar
                 display: flex
+                flex-wrap: wrap
+                padding-right: 20px
+
+
                 .text-container
                     display: flex
+                    flex-wrap: wrap
                     flex-direction: column
                     color: gray
                     padding: 20px 10px
             .Mozarella
                 display: flex
+                flex-wrap: wrap
                 .text-container
                     display: flex
+                    flex-wrap: wrap
                     flex-direction: column
                     color: gray
                     padding: 20px 10px
             .Spinach
                 display: flex
+                flex-wrap: wrap
                 .text-container
                     display: flex
+                    flex-wrap: wrap
                     flex-direction: column
                     color: gray
                     padding: 20px 10px
@@ -759,11 +790,7 @@ main
 
 
 
-.bookbutton
-    position: absolute
-    bottom: -50px
-    left: 230px
-    
+
 
 
         
@@ -803,12 +830,53 @@ main
     .sec6bot
         display: flex
         flex-direction: column
-        #chefs
+        gap: 15px
+        padding-left: 5px
+        padding-right: 5px
+        
+        .chef-container1
+            width: 100% !important
+        .chef-container2
+            width: 100% !important
+        .chef-container3
             width: 100% !important
 
     .sec7bot
         display: flex
         flex-direction: column
         padding-left: 20px
+
+
+
+
+@media screen and ( max-width:768px  )
+    .bookbutton
+        margin-right: 200px
+
+    .threeblocks
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        .blockleft
+            width: 90% !important
+        .blockmid
+            width: 90% !important
+        .blockright
+            width: 90% !important
+
+    
+
+   
+
+    
+
+
+@media screen and ( max-width:1040px  )
+    .sec2bot
+        display: flex
+        flex-direction: column
+    
         
         

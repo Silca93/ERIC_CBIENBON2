@@ -74,23 +74,28 @@ main {
 main .sec1 {
   display: flex;
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
+  width: 100%;
 }
 main .sec1 .sec1left {
   width: 50%;
   padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 main .sec1 .sec1left h4, main .sec1 .sec1left .h4 {
-  font-size: 130%;
+  font-size: 30px;
   display: flex;
 }
 main .sec1 .sec1left .goldcheck {
-  font-size: 70%;
+  font-size: 16px;
   padding-left: 0px !important;
   margin-left: 0px !important;
 }
 main .sec1 .sec1right {
   width: 50%;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,8 +103,8 @@ main .sec1 .sec1right {
 }
 main .sec1 .sec1right .goldrectangles {
   position: relative;
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 90%;
   background-image: url(./../assets/CBIENBON/img/about.jpg);
   background-size: cover;
   border: solid 3px gray;
@@ -169,6 +174,8 @@ main .sec1bot .threeblocks {
   justify-content: center;
   width: 100%;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   gap: 20px;
 }
 main .sec1bot .threeblocks .blockleft {
@@ -180,7 +187,6 @@ main .sec1bot .threeblocks .blockleft {
   background-color: rgb(44, 40, 34);
   width: 33%;
   height: 220px;
-  margin-left: 20px;
   transition-duration: 0.2s;
 }
 main .sec1bot .threeblocks .blockleft:hover {
@@ -206,18 +212,25 @@ main .sec1bot .threeblocks .blockright {
   height: 220px;
   background-color: rgb(44, 40, 34);
   padding: 10px 15px;
-  margin-right: 20px;
 }
 main .sec1bot .threeblocks .blockright:hover {
   background-color: #cca55d;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 900px) {
   .sec1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .sec1 .sec1left {
+    width: 90% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .sec1 .sec1right {
+    width: 90% !important;
   }
 }
 .sec2 {
@@ -238,7 +251,7 @@ main .sec1bot .threeblocks .blockright:hover {
   margin-left: -80px;
 }
 .sec2 .sec2bot {
-  display: flex !important;
+  display: flex;
   width: 100%;
   padding-bottom: 50px;
 }
@@ -249,6 +262,7 @@ main .sec1bot .threeblocks .blockright:hover {
   align-items: end;
   padding-right: 20px;
   padding-top: 60px;
+  margin-left: 10px;
   width: 50%;
 }
 .sec2 .sec2bot .sec2botleft .Lobster {
@@ -301,36 +315,45 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botright .Bread {
   display: flex;
+  flex-wrap: wrap;
 }
 .sec2 .sec2bot .sec2botright .Bread .text-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   color: gray;
   padding: 20px 10px;
 }
 .sec2 .sec2bot .sec2botright .Caesar {
   display: flex;
+  flex-wrap: wrap;
+  padding-right: 20px;
 }
 .sec2 .sec2bot .sec2botright .Caesar .text-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   color: gray;
   padding: 20px 10px;
 }
 .sec2 .sec2bot .sec2botright .Mozarella {
   display: flex;
+  flex-wrap: wrap;
 }
 .sec2 .sec2bot .sec2botright .Mozarella .text-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   color: gray;
   padding: 20px 10px;
 }
 .sec2 .sec2bot .sec2botright .Spinach {
   display: flex;
+  flex-wrap: wrap;
 }
 .sec2 .sec2bot .sec2botright .Spinach .text-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   color: gray;
   padding: 20px 10px;
@@ -744,12 +767,6 @@ main .sec1bot .threeblocks .blockright:hover {
   border: solid 2px gray;
 }
 
-.bookbutton {
-  position: absolute;
-  bottom: -50px;
-  left: 230px;
-}
-
 .sectitles {
   font-family: "Times New Roman", Times, serif;
   font-weight: 600;
@@ -781,14 +798,49 @@ main .sec1bot .threeblocks .blockright:hover {
   .sec6bot {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
-  .sec6bot #chefs {
+  .sec6bot .chef-container1 {
+    width: 100% !important;
+  }
+  .sec6bot .chef-container2 {
+    width: 100% !important;
+  }
+  .sec6bot .chef-container3 {
     width: 100% !important;
   }
   .sec7bot {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bookbutton {
+    margin-right: 200px;
+  }
+  .threeblocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeblocks .blockleft {
+    width: 90% !important;
+  }
+  .threeblocks .blockmid {
+    width: 90% !important;
+  }
+  .threeblocks .blockright {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .sec2bot {
+    display: flex;
+    flex-direction: column;
   }
 }
 footer {
