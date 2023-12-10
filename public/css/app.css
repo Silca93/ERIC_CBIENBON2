@@ -372,7 +372,11 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec4 .sec4mid {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
   gap: 20px;
+  column-gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -380,15 +384,19 @@ main .sec1bot .threeblocks .blockright:hover {
   background-color: rgb(34, 28, 18);
   color: whitesmoke;
   border: solid 2px gray;
-  width: 400px;
-  margin: 5px 20px;
+  width: 360px;
+  margin: 5px 10px;
   padding: 7px 5px;
 }
 #textarea {
-  width: 100%;
+  width: 95%;
   background-color: rgb(34, 28, 18);
   border: solid 2px gray;
   color: whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .bookbutton {
@@ -710,11 +718,21 @@ main .sec1bot .threeblocks .blockright:hover {
   gap: 15px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
   background-color: rgb(28, 25, 21);
   color: white;
 }
 .sec7bot .sec7botright .secbotrightbot #textarea2 {
   width: 100%;
+  background-color: rgb(28, 25, 21);
+  color: white;
+  padding: 7px 5px;
+  border: solid 2px gray;
+}
+.sec7bot .sec7botright .secbotrightbot #textarea3 {
+  width: 850px;
+  height: 200px;
   background-color: rgb(28, 25, 21);
   color: white;
   padding: 7px 5px;
@@ -807,7 +825,7 @@ footer .footertop .footertop4 {
   flex-direction: column;
   padding: 1px 10px;
   align-items: start;
-  padding-right: 40px;
+  padding-right: 0px;
 }
 footer .footerbot {
   height: 10%;
@@ -860,7 +878,7 @@ footer .footerbot {
   font-family: "Times New Roman", Times, serif;
 }
 
-#fname {
+#footname {
   background: rgb(34, 28, 18);
   border: solid 1px gray;
   border-top-left-radius: 20px;
