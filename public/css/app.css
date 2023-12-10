@@ -10,6 +10,7 @@ body {
 
 header {
   width: 100dvw;
+  overflow-x: hidden;
   background-image: url(./../assets/CBIENBON/img/hero-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,6 +70,7 @@ header .headerbot .cbienbon {
 
 main {
   width: 100dvw;
+  overflow-x: hidden;
   background-image: url(./../assets/CBIENBON/img/about-bg.jpg);
 }
 main .sec1 {
@@ -338,7 +340,6 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botright .Bread {
   display: flex;
-  flex-wrap: wrap;
 }
 .sec2 .sec2bot .sec2botright .Bread .text-container {
   display: flex;
@@ -349,7 +350,6 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botright .Caesar {
   display: flex;
-  flex-wrap: wrap;
   padding-right: 20px;
 }
 .sec2 .sec2bot .sec2botright .Caesar .text-container {
@@ -361,7 +361,6 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botright .Mozarella {
   display: flex;
-  flex-wrap: wrap;
 }
 .sec2 .sec2bot .sec2botright .Mozarella .text-container {
   display: flex;
@@ -372,7 +371,6 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec2 .sec2bot .sec2botright .Spinach {
   display: flex;
-  flex-wrap: wrap;
 }
 .sec2 .sec2bot .sec2botright .Spinach .text-container {
   display: flex;
@@ -434,6 +432,10 @@ main .sec1bot .threeblocks .blockright:hover {
   margin: 5px 10px;
   padding: 7px 5px;
 }
+.sec4 .sec4mid .sec4midbot {
+  width: 100%;
+}
+
 #textarea {
   width: 95%;
   background-color: rgb(34, 28, 18);
@@ -449,6 +451,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -472,7 +475,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 .sec5 .sec5mid {
   display: flex;
-  padding-left: 0px;
+  padding: 0px 10px;
   overflow: hidden;
 }
 .sec5 .sec5mid #galltop {
@@ -487,9 +490,10 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec5 .sec5bot {
   display: flex;
   overflow: hidden;
+  padding: 0px 10px;
 }
 .sec5 .sec5bot #gallbot {
-  margin: 3px;
+  margin: 3px 3px;
   width: 25%;
   height: 25%;
   transition-duration: 0.2s;
@@ -758,7 +762,7 @@ main .sec1bot .threeblocks .blockright:hover {
   width: 100%;
 }
 .sec7bot .sec7botright .secbotrighttop #fname2 {
-  width: 200px;
+  width: 300px;
   margin: 4px 10px;
   background-color: rgb(28, 25, 21);
   color: white;
@@ -775,7 +779,7 @@ main .sec1bot .threeblocks .blockright:hover {
   color: white;
 }
 .sec7bot .sec7botright .secbotrightbot #textarea2 {
-  width: 90%;
+  width: 130%;
   background-color: rgb(28, 25, 21);
   color: white;
   padding: 7px 5px;
@@ -882,6 +886,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 footer {
   width: 100%;
+  overflow-x: hidden;
   background-color: #0c0b09;
 }
 footer .footertop {
@@ -890,6 +895,8 @@ footer .footertop {
   flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 footer .footertop .footertop1 {
   width: 25%;
@@ -925,7 +932,7 @@ footer .footertop .footertop4 {
   flex-direction: column;
   padding: 1px 10px;
   align-items: start;
-  padding-right: 0px;
+  padding-right: 10px;
 }
 footer .footerbot {
   height: 10%;
