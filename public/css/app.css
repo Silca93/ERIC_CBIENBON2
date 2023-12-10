@@ -771,6 +771,7 @@ footer .footertop {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 footer .footertop .footertop1 {
   width: 25%;
@@ -806,15 +807,17 @@ footer .footertop .footertop4 {
   flex-direction: column;
   padding: 1px 10px;
   align-items: start;
+  padding-right: 40px;
 }
 footer .footerbot {
   height: 10%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px 0px;
   background-color: black;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 .iconesfooter {
@@ -855,6 +858,20 @@ footer .footerbot {
 }
 .secheader p {
   font-family: "Times New Roman", Times, serif;
+}
+
+#fname {
+  background: rgb(34, 28, 18);
+  border: solid 1px gray;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#sendButton {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 @media screen and (max-width: 650px) {
