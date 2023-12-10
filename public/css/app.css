@@ -351,7 +351,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 
 .sec4 {
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(28, 25, 21);
 }
 .sec4 .sec4top {
   display: flex;
@@ -377,7 +377,7 @@ main .sec1bot .threeblocks .blockright:hover {
   align-items: center;
 }
 .sec4 .sec4mid #fname {
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(34, 28, 18);
   color: whitesmoke;
   border: solid 2px gray;
   width: 400px;
@@ -386,7 +386,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 #textarea {
   width: 100%;
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(34, 28, 18);
   border: solid 2px gray;
   color: whitesmoke;
 }
@@ -400,7 +400,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 
 .sec5 {
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(28, 25, 21);
   margin-left: -40px !important;
   padding-right: 30px;
   padding-left: 50px !important;
@@ -445,7 +445,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 
 .sec6 {
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(28, 25, 21);
   padding-top: 50px;
 }
 .sec6 .sec6top {
@@ -595,7 +595,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 
 .sec7 {
-  background-color: rgb(44, 40, 24);
+  background-color: rgb(28, 25, 21);
 }
 .sec7 .sec7mid {
   padding-bottom: 20px;
@@ -622,7 +622,7 @@ main .sec1bot .threeblocks .blockright:hover {
 
 .sec7bot {
   width: 100%;
-  background-color: rgb(44, 40, 24);
+  background-color: rgb(28, 25, 21);
   display: flex;
 }
 .sec7bot .sec7botleft {
@@ -701,7 +701,7 @@ main .sec1bot .threeblocks .blockright:hover {
 .sec7bot .sec7botright .secbotrighttop #fname2 {
   width: 100%;
   margin: 4px 10px;
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(28, 25, 21);
   color: white;
   padding: 7px 5px;
   border: solid 2px gray;
@@ -710,12 +710,12 @@ main .sec1bot .threeblocks .blockright:hover {
   gap: 15px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(28, 25, 21);
   color: white;
 }
 .sec7bot .sec7botright .secbotrightbot #textarea2 {
   width: 100%;
-  background-color: rgb(44, 40, 34);
+  background-color: rgb(28, 25, 21);
   color: white;
   padding: 7px 5px;
   border: solid 2px gray;
@@ -764,7 +764,7 @@ main .sec1bot .threeblocks .blockright:hover {
 }
 footer {
   width: 100%;
-  background-color: rgb(44, 40, 24);
+  background-color: #0c0b09;
 }
 footer .footertop {
   height: 90%;
@@ -814,6 +814,7 @@ footer .footerbot {
   align-items: center;
   justify-content: center;
   padding: 20px 0px;
+  background-color: black;
 }
 
 .iconesfooter {
