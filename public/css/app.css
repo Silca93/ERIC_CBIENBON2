@@ -241,7 +241,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   width: 50%;
 }
 .sec2 .sec2bot .sec2botleft .Lobster {
@@ -251,7 +251,10 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
-  gap: 2px;
+  padding: 0px 10px;
+}
+.sec2 .sec2bot .sec2botleft .Lobster .text-container p {
+  padding-top: 0px;
 }
 .sec2 .sec2bot .sec2botleft .Crab {
   display: flex;
@@ -260,6 +263,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 .sec2 .sec2bot .sec2botleft .Tuscan {
   display: flex;
@@ -268,6 +272,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 .sec2 .sec2bot .sec2botleft .Greek {
   display: flex;
@@ -276,6 +281,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 .sec2 .sec2bot .sec2botright {
   display: flex;
@@ -291,6 +297,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 .sec2 .sec2bot .sec2botright .Caesar {
   display: flex;
@@ -299,6 +306,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 .sec2 .sec2bot .sec2botright .Mozarella {
   display: flex;
@@ -307,6 +315,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 .sec2 .sec2bot .sec2botright .Spinach {
   display: flex;
@@ -315,6 +324,7 @@ main .sec1bot .threeblocks .blockright:hover {
   display: flex;
   flex-direction: column;
   color: gray;
+  padding: 0px 10px;
 }
 
 .sec3 {
